@@ -11,12 +11,12 @@
 
 function formatMessage(message, maxLength) {
   if (message.length <= maxLength) {
-      console.log(message);
+      // console.log(message);
       return message;
   }
 else {
   // console.log((message.slice(0, maxLength-1))+"...");
-return (message.slice(0, maxLength-1))+"...";
+return (message.slice(0, maxLength))+"...";
 }
 }
 
